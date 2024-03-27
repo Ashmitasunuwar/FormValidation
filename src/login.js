@@ -20,15 +20,13 @@ const Login = ({ handelchange }) => {
 
 
 
-    return (<div> Login Page
-        <form>
-            <br></br>
-            <label >Enter your Name</label>
-            <input type="text" style={{ marginLeft: '5px' }} value={userName} onChange={(e) => { handleChange(e) }} />
-            <br></br>
-            <br></br>
+    return (<div className='container'>  Login Page
+        <form className='row'> 
+            
+            <label  >Enter your Name</label>
+            <input  className='col-6'type="text" style={{ marginLeft: '5px' }} value={userName} onChange={(e) => { handleChange(e) }} />    
             <label >Enter your email</label>
-            <input type="text" style={{ marginLeft: '5px' }} value={email} onChange={(e) => { pswdChange(e) }} />
+            <input className='col-6' type="text" style={{ marginLeft: '5px' }} value={email} onChange={(e) => { pswdChange(e) }} />
         </form>
 
     </div>)

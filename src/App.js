@@ -12,12 +12,12 @@ const handleSignUpButton = (event) => {
 
 
 const App = () => {
-    return <div>
+    return <div className='container'>
 
-        <Login />
-<p>hello summer</p>
+        <Login/>
+<p>hello summer jhdsahdoaudh</p>
 
-        <SignUp />
+        <SignUp  className='container' />
 
 
 
